@@ -419,8 +419,8 @@ $ zonemaster-cli child.OOB-ADDR-MISMATCH.consistency05.xa --raw  --test Consiste
    0.00 DEBUG    DEPENDENCY_VERSION   name=Readonly; version=2.05
    0.00 DEBUG    MODULE_VERSION   module=Zonemaster::Engine::Test::Consistency; version=v1.1.16
    0.00 DEBUG    TEST_CASE_START   testcase=consistency05
-  20.34 ERROR    OUT_OF_BAILIWICK_ADDR_MISMATCH   parent_addresses=ns2.sibbling.oob-addr-mismatch.consistency05.xa./127.14.5.34;ns2.sibbling.oob-addr-mismatch.consistency05.xa./fda1:b2:c3:0:127:14:5:34; zone_addresses=
-  20.36 ERROR    OUT_OF_BAILIWICK_ADDR_MISMATCH   parent_addresses=ns1.sibbling.oob-addr-mismatch.consistency05.xa./127.14.5.39;ns1.sibbling.oob-addr-mismatch.consistency05.xa./fda1:b2:c3:0:127:14:5:39; zone_addresses=ns1.sibbling.oob-addr-mismatch.consistency05.xa./127.14.5.33;ns1.sibbling.oob-addr-mismatch.consistency05.xa./fda1:b2:c3:0:127:14:5:33
+  20.34 ERROR    OUT_OF_BAILIWICK_ADDR_MISMATCH   parent_addresses=ns2.sibling.oob-addr-mismatch.consistency05.xa./127.14.5.34;ns2.sibling.oob-addr-mismatch.consistency05.xa./fda1:b2:c3:0:127:14:5:34; zone_addresses=
+  20.36 ERROR    OUT_OF_BAILIWICK_ADDR_MISMATCH   parent_addresses=ns1.sibling.oob-addr-mismatch.consistency05.xa./127.14.5.39;ns1.sibling.oob-addr-mismatch.consistency05.xa./fda1:b2:c3:0:127:14:5:39; zone_addresses=ns1.sibling.oob-addr-mismatch.consistency05.xa./127.14.5.33;ns1.sibling.oob-addr-mismatch.consistency05.xa./fda1:b2:c3:0:127:14:5:33
   20.36 DEBUG    TEST_CASE_END   testcase=consistency05
   20.36 DEBUG    MODULE_END   module=Consistency
 ```
