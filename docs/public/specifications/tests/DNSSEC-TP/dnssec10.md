@@ -55,7 +55,7 @@ This test case is only relevant if the zone has been DNSSEC signed.
 * "Child Zone" - The domain name to be tested.
 * "[Non-Existent Query Name]" - A name constructed by prepending
   *Child Zone* with a label (e.g. "xx--zpeqz4v66tckbqkyw35k--xx") created by the
-  following steps, resulting in e.g. "xx--zpeqz4v66tckbqkyw35k--xx.exemple.com".
+  following steps, resulting in e.g. "xx--zpeqz4v66tckbqkyw35k--xx.example.com".
   * Use the string "xx--" as a prefix for the label.
   * As middle part of the label, use a mixed string of 20 characters from the set
     "a-z0-9".
