@@ -118,11 +118,11 @@ Also "happy path". Out-of-bailiwick NS, but with glue.
 
 * Zone: "child.addresses-match-6.consistency05.xa."
   * Both ns1 and ns2 are out-of-bailiwick
-  * ns1 is "ns1.sibbling.addresses-match-6.consistency05.xa"
-  * ns2 is "ns2.sibbling.addresses-match-6.consistency05.xa"
+  * ns1 is "ns1.sibling.addresses-match-6.consistency05.xa"
+  * ns2 is "ns2.sibling.addresses-match-6.consistency05.xa"
   * Delegation is with glue.
   * The test zone ("child") has no address records for the NS names, but the
-    "sibbling" zone has full set of address records.
+    "sibling" zone has full set of address records.
 
 ### ADDRESSES-MATCH-7
 Also "happy path". NS in subdomain.
@@ -145,7 +145,7 @@ Lame. No NS responds.
 Lame. One NS non-AA and one NS SERVFAIL.
 
 * Zone: "child-zone-lame-2.consistency05.xa."
-  * ns1 respones with AA bit unset.
+  * ns1 responses with AA bit unset.
   * ns2 responds with [RCODE Name] "ServFail".
 
 ### IB-ADDR-MISMATCH-1
@@ -192,8 +192,8 @@ response.
 
 * Zone: "child.oob-addr-mismatch.consistency05.xa."
   * Both ns1 and ns2 are out-of-bailiwick
-  * ns1 is "ns1.sibbling.oob-addr-mismatch.consistency05.xa"
-  * ns2 is "ns2.sibbling.oob-addr-mismatch.consistency05.xa"
+  * ns1 is "ns1.sibling.oob-addr-mismatch.consistency05.xa"
+  * ns2 is "ns2.sibling.oob-addr-mismatch.consistency05.xa"
   * Delegation is with glue.
   * The test zone ("child") has no address records for the NS names.
   * The "sibling" zone has full set of address records
